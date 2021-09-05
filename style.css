@@ -1,0 +1,146 @@
+body {
+    font-family: "Avenir Next";
+    background-color: #d4ecdd;
+    color: #152d35;
+}
+  
+li {
+    list-style: none;
+}
+  
+.header {
+    background-color: #152d35;
+    color: #fff;
+    height: 700px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-media {
+    width: 50px;
+    height: 75px;
+    float: right;
+    margin-top: -50px;
+    margin-right: 20px;
+}
+
+.header-media img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+  
+.header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 15px 25px;
+}
+  
+.header-list li {
+    float: right;
+    padding: 33px 30px;
+}
+
+.header-head{
+    text-align: center;
+    padding: 200px;
+    font-size: 24px;
+}
+  
+.main {
+    padding: 120px 120px;
+}
+
+.copy-container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 500px;
+}
+
+.main img{
+    height: 408px;
+    width: 306px;
+    padding-left: 60px;
+    box-shadow: #003d5e;
+    float: left;
+}
+
+.skill {
+    background-color: #152d35;
+    color: #fff;
+    height: 650px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.skill h1{
+    padding-top:  75px;
+    text-align: center;
+    font-size: 48px;
+}
+
+.skill-picture {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 65px;
+}
+
+.skill-picture img {
+    width: 100%;
+    height: auto;
+}
+
+.copy-container h1 {
+    font-size: 50px;
+}
+  
+.copy-container h2 {
+    font-size: 25px;
+}
+
+
+.section-title {
+    border-bottom: 2px solid #003d5e;
+    font-size: 36px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+  
+.contact-form{  
+    padding: 80px;
+}
+
+.contact-form p{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-form img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.footer {
+    background-color: #152d35;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+}
+  
+.footer-logo {
+    float: left;
+    font-size: 32px;
+}
+  
+.footer-list {
+    float: right;
+}
+  
+.footer-list li {
+    padding-bottom: 20px;
+}
+  
