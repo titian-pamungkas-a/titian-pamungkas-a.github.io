@@ -61,9 +61,16 @@ li {
 .main img{
     height: 408px;
     width: 306px;
-    padding-left: 60px;
+    padding-left: 50px;
     box-shadow: #003d5e;
     float: left;
+}
+
+.main ul{
+    margin-top: 40px;
+    margin-left: -40px;
+    font-size: 18px;
+    font-style: italic;
 }
 
 .skill {
