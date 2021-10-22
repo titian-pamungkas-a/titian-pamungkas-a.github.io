@@ -1,0 +1,49 @@
+body {
+    background: #1e3163;
+    font-family: sans-serif;
+  }
+   
+  h2 {
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+   
+  .login {
+    padding: 1em;
+    margin: 5em auto;
+    width: 50em;
+    background: #fff;
+    border-radius: 3px;
+  }
+   
+  label {
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    color: #555;
+  }
+   
+  input[type="text"],
+  input[type="email"], option, select,
+  textarea {
+    padding: 8px;
+    width: 95%;
+    background: #efefef;
+    border: 0;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 6px 0px;
+  }
+   
+  input[type="submit"]{
+    padding: 8px;
+    margin: 10px;
+  }
+
+  .tombol {
+    background: #3498db;
+    color: #fff;
+    border: 0;
+    padding: 5px 8px;
+  }

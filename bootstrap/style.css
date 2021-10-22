@@ -1,0 +1,40 @@
+header{
+    background-color: black;
+    height: 100px;
+    width: auto;
+}
+
+.img-fluid{
+    padding:20px;
+    height: 400px;
+    width: auto;
+    margin-left: 100px;
+    
+    float: left;
+}
+
+.img{
+    height: 50px;
+    width: auto;
+    margin: 25px;
+}
+
+
+form{
+    margin-left: 650px;
+    margin-top: 100px;
+    
+    
+}
+
+.form-control{
+    width: 500px;
+}
+ 
+
+footer{
+    background-color: black;
+    height: 110px;
+    width: auto;
+    margin-top: 200px;
+}
