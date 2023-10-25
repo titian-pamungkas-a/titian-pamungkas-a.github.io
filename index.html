@@ -6,85 +6,98 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="header">
-            <div class="header-logo">Skywrath</div>
-            <div class="header-list">
-                <ul>
-                    <li>About</li>
-                    <li>Lessons</li>
-                    <li>Contact us</li>
-                </ul>
-            </div>
-            <div class="header-head">
-                <h1>Hello overthere!</h1>
-                <h2>Im Titian Pamungkas Anjasmara</h2>
+        <header>
+            <nav>
+                <div class="nav-fixed">
+                    <h1 class="header-logo"><a href="#">Skywrath</a></h1>
+                    <div class="header-list">
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#lessons">Lessons</a></li>
+                            <li><a href="#contact">Experience</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="header-head" id="header-head">
+                <h2>Hello overthere!</h2>
+                <h3>Im Titian Pamungkas Anjasmara</h3>
                 <h6>Web developer - Game Enthusiast</h6>
             </div>
             <div class="header-media">
                 <a href="https://www.facebook.com/titianpamungkas.anjasmara/"><img src="facebook.png"></a>
-            </div>
-            <div class="header-media">
+            <!-- </div> -->
+            <!-- <div class="header-media"> -->
                 <a href="https://www.youtube.com/channel/UCc9sHEwZNKN6gzZ1d8lSFBw"><img src="youtube.png"></a>         
-            </div>
-            <div class="header-media">
+            <!-- </div> -->
+            <!-- <div class="header-media"> -->
                 <a href="https://www.instagram.com/titian_pamungkas/"><img src="ig.png"></a>
             </div>
+        </header>
+        <main id="about">
+            <h2>About Me</h2>
+            <div class="about-me">
+                <img src="foto.jpg">
+                <div class="copy-container">
+                    <h3>Titian Pamungkas Anjasmara</h3>
+                    <h6>One of Informatics Student from Lumajang 🍌</h6>
+                    <ul>
+                        <li>My name is Titian Pamungkas Anjasmara, but most of my acquitance call me "Tito".</li>
+                        <li>I study Informatics in one of the best collage in Indonesia, called ITS.</li>
+                        <li>Currently, im in Lumajang, in my lovely hometown. Its location near Surabaya.</li>
+                        <li>Right now, im busy with my study and other activities.</li>
+                        <li>One of my bussiness right now is study about web programming, which is pretty interesting.</li>
+                        <li>With this web, i hope i learn something new about web, and if u have something new, u can tell me through my social media.</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <div class="skill" id="lessons">
+            <h2>My Skills</h2>
+            <div class="skills">
+                <div class="skill-picture">
+                    <img src="unity.jpg">
+                    <p>unity</p>
+                </div>
+                <div class="skill-picture">
+                    <img src="vs.png">
+                    <p>C, C++, C#</p>
+                </div>
+                <div class="skill-picture">
+                    <img src="XD.png">
+                    <p>Adobe XD</p>
+                </div>
+                <div class="skill-picture">
+                    <img src="knight.png">
+                    <p>games experience</p>
+                </div>
+            </div>
         </div>
-        <div class="main">
-            <img src="foto.jpg">
-            <div class="copy-container">
-                <h1>Titian Pamungkas Anjasmara</h1>
-                <h2>One of Informatics Student from Lumajang</h2>
+        <div class="contact-form" id="contact">
+            <h2 class="section-title">Experience</h2>
+            <article>
+                <h3>Indie Game Development</h3>
+                <img src="Logo.png">
                 <p>
-                    My name is Titian Pamungkas Anjasmara, but most of my acquitance call me "Tito".
-                    I study Informatics in one of the best collage in Indonesia, called ITS.
-                    Currently, im in Lumajang, in my lovely hometown. Its location near Surabaya.
-                    Right now, im busy with my study and other activities. 
-                    One of my bussiness right now is study about web programming, which is pretty interesting.
-                    With this web, i hope i learn something new about web, and if u have something new, u can tell me through my social media.
+                    I have some experience about my skills, especially with game related.
+                    I made some games with platformers genre, called frog prince and I.
+                    I made those individually, although i take all unity assets while made frog prince.
+                    With team, i made 2 games named Magic Trashbin and Spaceific. Those games are simple games
+                    with simple gameplay. I would rather call them mini games. When i make those games, i take
+                    reference form some games, especially form games with same genre and my favorite games.
+                    Those games are Hollow knight, Ori series, and Gris. I hope next time i can do better with
+                    my next experience.
                 </p>
-            </div>
-        </div>
-        <div class="skill">
-            <h1>My Skill</h1>
-            <div class="skill-picture">
-                <img src="unity.jpg">
-                <h3>unity</h3>
-            </div>
-            <div class="skill-picture">
-                <img src="vs.png">
-                <h3>C, C++, C#</h3>
-            </div>
-            <div class="skill-picture">
-                <img src="XD.png">
-                <h3>Adobe XD</h3>
-            </div>
-            <div class="skill-picture">
-                <img src="knight.png">
-                <h3>games experience</h3>
-            </div>
-        </div>
-        <div class="contact-form">
-            <h3 class="section-title">Experience</h3>
-            <p>
-                I have some experience about my skills, especially with game related.
-                I made some games with platformers genre, called frog prince and I.
-                I made those individually, although i take all unity assets while made frog prince.
-                With team, i made 2 games named Magic Trashbin and Spaceific. Those games are simple games
-                with simple gameplay. I would rather call them mini games. When i make those games, i take
-                reference form some games, especially form games with same genre and my favorite games.
-                Those games are Hollow knight, Ori series, and Gris. I hope next time i can do better with
-                my next experience.
-            </p>
-            <img src="Logo.png">
+            </article>
         </div>
         <div class="footer">
-            <div class="footer-logo">Skywrath</div>
+            <h4 class="footer-logo">Skywrath</h4>
             <div class="footer-list">
+                <p>Skywrath</p>
                 <ul>
-                    <li>About</li>
-                    <li>Jobs</li>
-                    <li>Contact us</li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Contact us</a></li>
                 </ul>
             </div>
         </div>
